@@ -9,11 +9,12 @@ A standalone emulator of sound playback based on the Mini DFPlayer module will b
 The software for initializing the sound was developed in the Arduino IDE environment in the C language.
 
  Practical value of the project:
-• The system that supplies 220V power;
-• Autonomous system emulator can have up to 14 sounds;
-• The system is able to play only 7 sounds at a time;
-• Sound duration can be up to 2.5 seconds;
-• Receiving frequency – 800-2500 Hz.
+- The system that supplies 220V power;
+- Autonomous system emulator can have up to 14 sounds;
+- The system is able to play only 7 sounds at a time;
+- Sound duration can be up to 2.5 seconds;
+- Receiving frequency – 800-2500 Hz.
+
 The database is located directly in the Voice Recognition V.3 module, so no additional software is required.
 The system must have the Internet to perform the work. It is provided by GSM module SIM800L, to which a SIM is inserted with the tariff "Technika", providing 2 GB of Internet. This is enough to keep the system running smoothly, otherwise you can connect the system to WI-FI via the ESP8266 module.
 
